@@ -26,11 +26,10 @@ cp niri-gap-toggle.sh ~/scripts/
 chmod +x ~/scripts/niri-gap-toggle.sh
 ```
 
-2. Adicione os atalhos no `~/.config/niri/config.kdl`, dentro do bloco `binds { }`:
+2. Adicione o atalho no `~/.config/niri/config.kdl`, dentro do bloco `binds { }`:
 
 ```kdl
 Mod+N { spawn "/home/seu-usuario/scripts/niri-gap-toggle.sh"; }
-Mod+Shift+N { spawn "/home/seu-usuario/scripts/niri-gap-toggle.sh"; }
 ```
 
 3. Recarregue o config:
@@ -41,7 +40,7 @@ niri msg action load-config-file
 
 ## Uso
 
-Pressione `Mod+N` (ou `Mod+Shift+N`) para alternar entre os modos.
+Pressione `Mod+N` para alternar entre os modos.
 
 Uma notificação aparecerá:
 - **"Modo: Padrão"** — monitores sem gap
