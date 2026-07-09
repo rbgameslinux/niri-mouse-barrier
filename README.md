@@ -51,5 +51,5 @@ Uma notificação aparecerá:
 Para alterar o tamanho do gap, edite a variável `GAP` no script:
 
 ```bash
-GAP=20   # altere para o valor desejado
+GAP=100   # altere para o valor desejado
 ```
