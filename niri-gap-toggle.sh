@@ -1,6 +1,6 @@
 #!/bin/bash
 
-GAP=20
+GAP=50
 
 parse_outputs() {
     local name="" pos_x="" pos_y="" width="" height=""
