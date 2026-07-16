@@ -1,13 +1,13 @@
 # niri-gap-toggle
 
-Cria um **gap de 100px** entre os monitores no [Niri](https://niri-wm.github.io/) para evitar que o mouse passe para o segundo monitor enquanto joga, sem precisar rodar o jogo no Gamescope.
+Cria um **gap de 40px** entre os monitores no [Niri](https://niri-wm.github.io/) para evitar que o mouse passe para o segundo monitor enquanto joga, sem precisar rodar o jogo no Gamescope.
 
 ## Como funciona
 
 O script detecta automaticamente os monitores, identifica o primário (maior área), e **move o secundário** 20px para longe do primário, criando um espaço que o mouse não consegue atravessar.
 
 - **Modo Padrão**: monitores lado a lado (flush)
-- **Modo Jogo**: gap de 100px entre os monitores
+- **Modo Jogo**: gap de 40px entre os monitores
 
 Funciona com monitores lado a lado (horizontal) ou empilhados (vertical), em qualquer posição.
 
@@ -44,12 +44,12 @@ Pressione `Mod+N` para alternar entre os modos.
 
 Uma notificação aparecerá:
 - **"Modo: Padrão"** — monitores sem gap
-- **"Modo: Jogo"** — gap de 100px ativo
+- **"Modo: Jogo"** — gap de 40px ativo
 
 ## Personalização
 
 Para alterar o tamanho do gap, edite a variável `GAP` no script:
 
 ```bash
-GAP=100   # altere para o valor desejado
+GAP=40   # altere para o valor desejado
 ```
